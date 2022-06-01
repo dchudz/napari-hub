@@ -8,6 +8,7 @@ const { set } = require('lodash');
 
 const napariPlugin = require('./src/fixtures/plugin.json');
 const pluginIndex = require('./src/fixtures/index.json');
+const collectionsIndex = require('./src/fixtures/collections-index.json');
 
 const app = express();
 
@@ -35,6 +36,10 @@ app.get('/plugins/:name', async (req, res) => {
   } else {
     res.status(404).send('not found');
   }
+});
+
+app.get('/collections', async (_, res) => {
+  res.json(collectionsIndex);
 });
 
 app.listen(8081, () => console.log('Started mock API server'));
