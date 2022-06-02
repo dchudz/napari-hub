@@ -6,13 +6,82 @@
     "cover_image": "https://raw.githubusercontent.com/chanzuckerberg/napari-hub-collections/main/images/national-cancer-institute-4zA4w-dr5WM-unsplash.jpg",
     "curator": {
       "name": "Vivien Donovan",
-      "title": "Product Manager",
+      "title": "Imaging Scientist",
       "affiliation": {
         "institution": "Imaging Scientist, Cell Core Research Facility",
         "website": "https://example.com"
       }
     },
-    "symbol": "time-saving-segmentation-plugins"
+    "plugins": [
+      {
+        "name": "napari-lazy-openslide",
+        "summary": "A plugin to lazily load multiscale whole-slide images with openslide and dask.",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Trevor Manz",
+            "email": "trevor.j.manz@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "napari_video",
+        "summary": "napari plugin for reading videos.",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Jan Clemens",
+            "email": "clemensjan@googlemail.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-aicsimageio",
+        "summary": "AICSImageIO bindings for napari",
+        "comment": "This is a cool plugin is cool",
+        "authors": [
+          {
+            "name": "Jackson Maxfield Brown",
+            "email": "jmaxfieldbrown@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "affinder",
+        "summary": "Quickly find the affine matrix mapping one image to another using manual correspondence points annotation",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Juan Nunez-Iglesias",
+            "email": "juan.nunez-iglesias@monash.edu"
+          }
+        ]
+      },
+      {
+        "name": "napari-itk-io",
+        "summary": "File IO with itk for napari",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Matt McCormick",
+            "email": "matt.mccormick@kitware.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-medical-image-formats",
+        "summary": "A Plugin in order to read medical image formats such as DICOM and NIfTI",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Marc Boucsein, Marc Buckmakowski",
+            "email": ""
+          }
+        ]
+      }
+    ],
+    "symbol": "time-saving-segmentation-plugins",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta mauris eget convallis efficitur. Donec ultrices ligula turpis, sit amet laoreet erat aliquet vitae. In quis pellentesque ex. Vestibulum eu metus laoreet, blandit dolor sit amet, tristique leo. Sed sollicitudin elit vel venenatis lacinia. Mauris tempor nisl odio, sed placerat ligula dignissim eu. Ut et commodo felis, a pellentesque ipsum. Nulla eu nisi nec eros dapibus iaculis nec sit amet magna. Nam consectetur interdum pharetra. Donec sollicitudin ornare mi at aliquam. Fusce tortor eros, aliquet non ipsum ut, congue pretium quam. In rutrum vestibulum nibh ut eleifend. Nullam quam magna, eleifend et eleifend id, ultricies vel diam."
   },
   {
     "title": "Allen Cell Institute’s plugins",
@@ -21,13 +90,38 @@
     "cover_image": "https://raw.githubusercontent.com/chanzuckerberg/napari-hub-collections/main/images/national-cancer-institute-J28Nn-CDbII-unsplash.jpg",
     "curator": {
       "name": "Quigley Schoolcraft",
-      "title": "Imaging Scientist",
+      "title": "Software Engineer",
       "affiliation": {
         "institution": "Machine Learning Engineer, Allen Cell Institute",
         "website": "https://example.com"
       }
     },
-    "symbol": "allen-cell-institutes-plugins"
+    "plugins": [
+      {
+        "name": "napari-btrack-reader",
+        "summary": "A plugin to load btrack files",
+        "comment": "This is a cool plugin is cool",
+        "authors": [
+          {
+            "name": "Alan R. Lowe",
+            "email": "code@arlowe.co.uk"
+          }
+        ]
+      },
+      {
+        "name": "napari-cellfinder",
+        "summary": "Visualise cellfinder results with napari",
+        "comment": "This is the best plugin there was",
+        "authors": [
+          {
+            "name": "Adam Tyson",
+            "email": "adam.tyson@ucl.ac.uk"
+          }
+        ]
+      }
+    ],
+    "symbol": "allen-cell-institutes-plugins",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta mauris eget convallis efficitur. Donec ultrices ligula turpis, sit amet laoreet erat aliquet vitae. In quis pellentesque ex. Vestibulum eu metus laoreet, blandit dolor sit amet, tristique leo. Sed sollicitudin elit vel venenatis lacinia. Mauris tempor nisl odio, sed placerat ligula dignissim eu. Ut et commodo felis, a pellentesque ipsum. Nulla eu nisi nec eros dapibus iaculis nec sit amet magna. Nam consectetur interdum pharetra. Donec sollicitudin ornare mi at aliquam. Fusce tortor eros, aliquet non ipsum ut, congue pretium quam. In rutrum vestibulum nibh ut eleifend. Nullam quam magna, eleifend et eleifend id, ultricies vel diam."
   },
   {
     "title": "ABRF biology workflow",
@@ -42,7 +136,21 @@
         "website": "https://example.com"
       }
     },
-    "symbol": "abrf-biology-workflow"
+    "plugins": [
+      {
+        "name": "napari-brainreg",
+        "summary": "Visualise brainreg registration output",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Adam Tyson",
+            "email": "adam.tyson@ucl.ac.uk"
+          }
+        ]
+      }
+    ],
+    "symbol": "abrf-biology-workflow",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta mauris eget convallis efficitur. Donec ultrices ligula turpis, sit amet laoreet erat aliquet vitae. In quis pellentesque ex. Vestibulum eu metus laoreet, blandit dolor sit amet, tristique leo. Sed sollicitudin elit vel venenatis lacinia. Mauris tempor nisl odio, sed placerat ligula dignissim eu. Ut et commodo felis, a pellentesque ipsum. Nulla eu nisi nec eros dapibus iaculis nec sit amet magna. Nam consectetur interdum pharetra. Donec sollicitudin ornare mi at aliquam. Fusce tortor eros, aliquet non ipsum ut, congue pretium quam. In rutrum vestibulum nibh ut eleifend. Nullam quam magna, eleifend et eleifend id, ultricies vel diam."
   },
   {
     "title": "Point-detection plugins",
@@ -51,13 +159,71 @@
     "cover_image": "https://raw.githubusercontent.com/chanzuckerberg/napari-hub-collections/main/images/national-cancer-institute-NbZQYileaOI-unsplash.jpg",
     "curator": {
       "name": "Kinshasa Kosette Mickelthwait-Venkatesh",
-      "title": "Imaging Scientist",
+      "title": "Head Research Engineer",
       "affiliation": {
         "institution": "Research Biologist, Low Anchor Center for Human Disease and Study",
         "website": "https://example.com"
       }
     },
-    "symbol": "point-detection-plugins"
+    "plugins": [
+      {
+        "name": "napari-compressed-labels-io",
+        "summary": "Plugin exploring different options for reading and writing compressed and portable labels layers in napari.",
+        "comment": "This is the best plugin there was",
+        "authors": [
+          {
+            "name": "Draga Doncila",
+            "email": "ddoncila@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-brainreg",
+        "summary": "Visualise brainreg registration output",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Adam Tyson",
+            "email": "adam.tyson@ucl.ac.uk"
+          }
+        ]
+      },
+      {
+        "name": "napari-lazy-openslide",
+        "summary": "A plugin to lazily load multiscale whole-slide images with openslide and dask.",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Trevor Manz",
+            "email": "trevor.j.manz@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-brainreg",
+        "summary": "Visualise brainreg registration output",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Adam Tyson",
+            "email": "adam.tyson@ucl.ac.uk"
+          }
+        ]
+      },
+      {
+        "name": "napari-aicsimageio",
+        "summary": "AICSImageIO bindings for napari",
+        "comment": "This is a cool plugin is cool",
+        "authors": [
+          {
+            "name": "Jackson Maxfield Brown",
+            "email": "jmaxfieldbrown@gmail.com"
+          }
+        ]
+      }
+    ],
+    "symbol": "point-detection-plugins",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta mauris eget convallis efficitur. Donec ultrices ligula turpis, sit amet laoreet erat aliquet vitae. In quis pellentesque ex. Vestibulum eu metus laoreet, blandit dolor sit amet, tristique leo. Sed sollicitudin elit vel venenatis lacinia. Mauris tempor nisl odio, sed placerat ligula dignissim eu. Ut et commodo felis, a pellentesque ipsum. Nulla eu nisi nec eros dapibus iaculis nec sit amet magna. Nam consectetur interdum pharetra. Donec sollicitudin ornare mi at aliquam. Fusce tortor eros, aliquet non ipsum ut, congue pretium quam. In rutrum vestibulum nibh ut eleifend. Nullam quam magna, eleifend et eleifend id, ultricies vel diam."
   },
   {
     "title": "The most essential readers and writers for biologists",
@@ -72,7 +238,43 @@
         "website": "https://example.com"
       }
     },
-    "symbol": "the-most-essential-readers-and-writers-for-biologists"
+    "plugins": [
+      {
+        "name": "brainreg-segment",
+        "summary": "Manual segmentation of 3D brain structures in a common anatomical space",
+        "comment": "This is the best plugin there was",
+        "authors": [
+          {
+            "name": "Adam Tyson, Horst Obenhaus",
+            "email": "code@adamltyson.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-aicsimageio",
+        "summary": "AICSImageIO bindings for napari",
+        "comment": "This is a cool plugin is cool",
+        "authors": [
+          {
+            "name": "Jackson Maxfield Brown",
+            "email": "jmaxfieldbrown@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "brainreg-segment",
+        "summary": "Manual segmentation of 3D brain structures in a common anatomical space",
+        "comment": "This is the best plugin there was",
+        "authors": [
+          {
+            "name": "Adam Tyson, Horst Obenhaus",
+            "email": "code@adamltyson.com"
+          }
+        ]
+      }
+    ],
+    "symbol": "the-most-essential-readers-and-writers-for-biologists",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta mauris eget convallis efficitur. Donec ultrices ligula turpis, sit amet laoreet erat aliquet vitae. In quis pellentesque ex. Vestibulum eu metus laoreet, blandit dolor sit amet, tristique leo. Sed sollicitudin elit vel venenatis lacinia. Mauris tempor nisl odio, sed placerat ligula dignissim eu. Ut et commodo felis, a pellentesque ipsum. Nulla eu nisi nec eros dapibus iaculis nec sit amet magna. Nam consectetur interdum pharetra. Donec sollicitudin ornare mi at aliquam. Fusce tortor eros, aliquet non ipsum ut, congue pretium quam. In rutrum vestibulum nibh ut eleifend. Nullam quam magna, eleifend et eleifend id, ultricies vel diam."
   },
   {
     "title": "Neuro-pathway detection",
@@ -81,13 +283,92 @@
     "cover_image": "https://raw.githubusercontent.com/chanzuckerberg/napari-hub-collections/main/images/national-cancer-institute-W2OVh2w2Kpo-unsplash.jpg",
     "curator": {
       "name": "Zed Wexler",
-      "title": "Imaging Scientist",
+      "title": "Product Manager",
       "affiliation": {
         "institution": "Research Biologist, Cardiff College of Microbiology",
         "website": "https://example.com"
       }
     },
-    "symbol": "neuro-pathway-detection"
+    "plugins": [
+      {
+        "name": "napari-dv",
+        "summary": "Deltavision/MRC file reader for napari",
+        "comment": "This is a cool plugin is cool",
+        "authors": [
+          {
+            "name": "Talley Lambert",
+            "email": "talley.lambert@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-cellfinder",
+        "summary": "Visualise cellfinder results with napari",
+        "comment": "This is the best plugin there was",
+        "authors": [
+          {
+            "name": "Adam Tyson",
+            "email": "adam.tyson@ucl.ac.uk"
+          }
+        ]
+      },
+      {
+        "name": "napari_video",
+        "summary": "napari plugin for reading videos.",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Jan Clemens",
+            "email": "clemensjan@googlemail.com"
+          }
+        ]
+      },
+      {
+        "name": "cellfinder-napari",
+        "summary": "Efficient cell detection in large images",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Adam Tyson",
+            "email": "code@adamltyson.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-cellfinder",
+        "summary": "Visualise cellfinder results with napari",
+        "comment": "This is the best plugin there was",
+        "authors": [
+          {
+            "name": "Adam Tyson",
+            "email": "adam.tyson@ucl.ac.uk"
+          }
+        ]
+      },
+      {
+        "name": "napari-svg",
+        "summary": "A plugin for reading and writing svg files with napari",
+        "authors": [
+          {
+            "name": "Nicholas Sofroniew",
+            "email": "sofroniewn@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-brainreg",
+        "summary": "Visualise brainreg registration output",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Adam Tyson",
+            "email": "adam.tyson@ucl.ac.uk"
+          }
+        ]
+      }
+    ],
+    "symbol": "neuro-pathway-detection",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta mauris eget convallis efficitur. Donec ultrices ligula turpis, sit amet laoreet erat aliquet vitae. In quis pellentesque ex. Vestibulum eu metus laoreet, blandit dolor sit amet, tristique leo. Sed sollicitudin elit vel venenatis lacinia. Mauris tempor nisl odio, sed placerat ligula dignissim eu. Ut et commodo felis, a pellentesque ipsum. Nulla eu nisi nec eros dapibus iaculis nec sit amet magna. Nam consectetur interdum pharetra. Donec sollicitudin ornare mi at aliquam. Fusce tortor eros, aliquet non ipsum ut, congue pretium quam. In rutrum vestibulum nibh ut eleifend. Nullam quam magna, eleifend et eleifend id, ultricies vel diam."
   },
   {
     "title": "The best sample datasets for cell biology",
@@ -102,7 +383,51 @@
         "website": "https://example.com"
       }
     },
-    "symbol": "the-best-sample-datasets-for-cell-biology"
+    "plugins": [
+      {
+        "name": "napari-demo",
+        "summary": "demo plugin",
+        "comment": "This is the best plugin there was",
+        "authors": [
+          {
+            "name": "Ziyang Liu",
+            "email": "zliu@chanzuckerberg.com"
+          },
+          {
+            "name": "Justin T. Kiggins",
+            "orcid": "0000-0002-4638-7015"
+          }
+        ]
+      },
+      {
+        "name": "napari-console",
+        "summary": "A plugin that adds a console to napari",
+        "comment": "This is a cool plugin is cool",
+        "authors": [
+          {
+            "name": "Nicholas Sofroniew",
+            "email": "sofroniewn@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-demo",
+        "summary": "demo plugin",
+        "comment": "This is the best plugin there was",
+        "authors": [
+          {
+            "name": "Ziyang Liu",
+            "email": "zliu@chanzuckerberg.com"
+          },
+          {
+            "name": "Justin T. Kiggins",
+            "orcid": "0000-0002-4638-7015"
+          }
+        ]
+      }
+    ],
+    "symbol": "the-best-sample-datasets-for-cell-biology",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta mauris eget convallis efficitur. Donec ultrices ligula turpis, sit amet laoreet erat aliquet vitae. In quis pellentesque ex. Vestibulum eu metus laoreet, blandit dolor sit amet, tristique leo. Sed sollicitudin elit vel venenatis lacinia. Mauris tempor nisl odio, sed placerat ligula dignissim eu. Ut et commodo felis, a pellentesque ipsum. Nulla eu nisi nec eros dapibus iaculis nec sit amet magna. Nam consectetur interdum pharetra. Donec sollicitudin ornare mi at aliquam. Fusce tortor eros, aliquet non ipsum ut, congue pretium quam. In rutrum vestibulum nibh ut eleifend. Nullam quam magna, eleifend et eleifend id, ultricies vel diam."
   },
   {
     "title": "napari themes",
@@ -111,13 +436,49 @@
     "cover_image": "https://raw.githubusercontent.com/chanzuckerberg/napari-hub-collections/main/images/national-cancer-institute-evhLgfOjU5Y-unsplash.jpg",
     "curator": {
       "name": "Brigitta Fleet",
-      "title": "Product Manager",
+      "title": "Software Engineer",
       "affiliation": {
         "institution": "Chan Zuckerberg Initiative",
         "website": "https://example.com"
       }
     },
-    "symbol": "napari-themes"
+    "plugins": [
+      {
+        "name": "misic-napari-plugin",
+        "summary": "segmentation of bacteria",
+        "comment": "This is an awesome plugin is",
+        "authors": [
+          {
+            "name": "lcb-iam-pswap-le",
+            "email": "spanigrahi@imm.cnrs.fr"
+          }
+        ]
+      },
+      {
+        "name": "napari_video",
+        "summary": "napari plugin for reading videos.",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Jan Clemens",
+            "email": "clemensjan@googlemail.com"
+          }
+        ]
+      },
+      {
+        "name": "PartSeg",
+        "summary": "PartSeg is python GUI for bio imaging analysis especially nucleus analysis,",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Grzegorz Bokota",
+            "email": "g.bokota@cent.uw.edu.pl"
+          }
+        ]
+      }
+    ],
+    "symbol": "napari-themes",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta mauris eget convallis efficitur. Donec ultrices ligula turpis, sit amet laoreet erat aliquet vitae. In quis pellentesque ex. Vestibulum eu metus laoreet, blandit dolor sit amet, tristique leo. Sed sollicitudin elit vel venenatis lacinia. Mauris tempor nisl odio, sed placerat ligula dignissim eu. Ut et commodo felis, a pellentesque ipsum. Nulla eu nisi nec eros dapibus iaculis nec sit amet magna. Nam consectetur interdum pharetra. Donec sollicitudin ornare mi at aliquam. Fusce tortor eros, aliquet non ipsum ut, congue pretium quam. In rutrum vestibulum nibh ut eleifend. Nullam quam magna, eleifend et eleifend id, ultricies vel diam."
   },
   {
     "title": "Segmentify any cell type",
@@ -126,13 +487,27 @@
     "cover_image": "https://raw.githubusercontent.com/chanzuckerberg/napari-hub-collections/main/images/national-cancer-institute-irmUWEcjIz4-unsplash.jpg",
     "curator": {
       "name": "Guster Talltooth",
-      "title": "Imaging Scientist",
+      "title": "Software Engineer",
       "affiliation": {
         "institution": "Orinda Medical Center Fellow, Orinda Medical Center",
         "website": "https://example.com"
       }
     },
-    "symbol": "segmentify-any-cell-type"
+    "plugins": [
+      {
+        "name": "PartSeg",
+        "summary": "PartSeg is python GUI for bio imaging analysis especially nucleus analysis,",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Grzegorz Bokota",
+            "email": "g.bokota@cent.uw.edu.pl"
+          }
+        ]
+      }
+    ],
+    "symbol": "segmentify-any-cell-type",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta mauris eget convallis efficitur. Donec ultrices ligula turpis, sit amet laoreet erat aliquet vitae. In quis pellentesque ex. Vestibulum eu metus laoreet, blandit dolor sit amet, tristique leo. Sed sollicitudin elit vel venenatis lacinia. Mauris tempor nisl odio, sed placerat ligula dignissim eu. Ut et commodo felis, a pellentesque ipsum. Nulla eu nisi nec eros dapibus iaculis nec sit amet magna. Nam consectetur interdum pharetra. Donec sollicitudin ornare mi at aliquam. Fusce tortor eros, aliquet non ipsum ut, congue pretium quam. In rutrum vestibulum nibh ut eleifend. Nullam quam magna, eleifend et eleifend id, ultricies vel diam."
   },
   {
     "title": "Contrast-enhancing plugins for microscopy analysis",
@@ -141,13 +516,27 @@
     "cover_image": "https://raw.githubusercontent.com/chanzuckerberg/napari-hub-collections/main/images/national-cancer-institute-lsxKuARrQXI-unsplash.jpg",
     "curator": {
       "name": "Via Levine",
-      "title": "Product Manager",
+      "title": "Software Engineer",
       "affiliation": {
         "institution": "Imaging Specialist, Hobie Swingle Institute for Cell Science",
         "website": "https://example.com"
       }
     },
-    "symbol": "contrast-enhancing-plugins-for-microscopy-analysis"
+    "plugins": [
+      {
+        "name": "brainglobe-napari-io",
+        "summary": "Read and write files from the BrainGlobe neuroanatomy suite",
+        "comment": "This is a cool plugin is cool",
+        "authors": [
+          {
+            "name": "Adam Tyson",
+            "email": "adam.tyson@ucl.ac.uk"
+          }
+        ]
+      }
+    ],
+    "symbol": "contrast-enhancing-plugins-for-microscopy-analysis",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta mauris eget convallis efficitur. Donec ultrices ligula turpis, sit amet laoreet erat aliquet vitae. In quis pellentesque ex. Vestibulum eu metus laoreet, blandit dolor sit amet, tristique leo. Sed sollicitudin elit vel venenatis lacinia. Mauris tempor nisl odio, sed placerat ligula dignissim eu. Ut et commodo felis, a pellentesque ipsum. Nulla eu nisi nec eros dapibus iaculis nec sit amet magna. Nam consectetur interdum pharetra. Donec sollicitudin ornare mi at aliquam. Fusce tortor eros, aliquet non ipsum ut, congue pretium quam. In rutrum vestibulum nibh ut eleifend. Nullam quam magna, eleifend et eleifend id, ultricies vel diam."
   },
   {
     "title": "Segmentify anything you can imagine",
@@ -156,13 +545,104 @@
     "cover_image": "https://raw.githubusercontent.com/chanzuckerberg/napari-hub-collections/main/images/national-cancer-institute-mbL91Lg56zc-unsplash.jpg",
     "curator": {
       "name": "Alfredo Angelopolous",
-      "title": "Head Research Engineer",
+      "title": "Imaging Scientist",
       "affiliation": {
         "institution": "Research Scientist, ML for the Cell",
         "website": "https://example.com"
       }
     },
-    "symbol": "segmentify-anything-you-can-imagine"
+    "plugins": [
+      {
+        "name": "ome-zarr",
+        "summary": "Implementation of images in Zarr files.",
+        "comment": "This is a cool plugin is cool",
+        "authors": [
+          {
+            "name": "The Open Microscopy Team",
+            "email": ""
+          }
+        ]
+      },
+      {
+        "name": "napari-properties-viewer",
+        "summary": "A viewer for napari layer properties",
+        "comment": "This is the best plugin there was",
+        "authors": [
+          {
+            "name": "Kevin Yamauchi",
+            "email": "kevin.yamauchi@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "misic-napari-plugin",
+        "summary": "segmentation of bacteria",
+        "comment": "This is an awesome plugin is",
+        "authors": [
+          {
+            "name": "lcb-iam-pswap-le",
+            "email": "spanigrahi@imm.cnrs.fr"
+          }
+        ]
+      },
+      {
+        "name": "misic-napari-plugin",
+        "summary": "segmentation of bacteria",
+        "comment": "This is an awesome plugin is",
+        "authors": [
+          {
+            "name": "lcb-iam-pswap-le",
+            "email": "spanigrahi@imm.cnrs.fr"
+          }
+        ]
+      },
+      {
+        "name": "napari-compressed-labels-io",
+        "summary": "Plugin exploring different options for reading and writing compressed and portable labels layers in napari.",
+        "comment": "This is the best plugin there was",
+        "authors": [
+          {
+            "name": "Draga Doncila",
+            "email": "ddoncila@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-aicsimageio",
+        "summary": "AICSImageIO bindings for napari",
+        "comment": "This is a cool plugin is cool",
+        "authors": [
+          {
+            "name": "Jackson Maxfield Brown",
+            "email": "jmaxfieldbrown@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "brainreg-segment",
+        "summary": "Manual segmentation of 3D brain structures in a common anatomical space",
+        "comment": "This is the best plugin there was",
+        "authors": [
+          {
+            "name": "Adam Tyson, Horst Obenhaus",
+            "email": "code@adamltyson.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-aicsimageio",
+        "summary": "AICSImageIO bindings for napari",
+        "comment": "This is a cool plugin is cool",
+        "authors": [
+          {
+            "name": "Jackson Maxfield Brown",
+            "email": "jmaxfieldbrown@gmail.com"
+          }
+        ]
+      }
+    ],
+    "symbol": "segmentify-anything-you-can-imagine",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta mauris eget convallis efficitur. Donec ultrices ligula turpis, sit amet laoreet erat aliquet vitae. In quis pellentesque ex. Vestibulum eu metus laoreet, blandit dolor sit amet, tristique leo. Sed sollicitudin elit vel venenatis lacinia. Mauris tempor nisl odio, sed placerat ligula dignissim eu. Ut et commodo felis, a pellentesque ipsum. Nulla eu nisi nec eros dapibus iaculis nec sit amet magna. Nam consectetur interdum pharetra. Donec sollicitudin ornare mi at aliquam. Fusce tortor eros, aliquet non ipsum ut, congue pretium quam. In rutrum vestibulum nibh ut eleifend. Nullam quam magna, eleifend et eleifend id, ultricies vel diam."
   },
   {
     "title": "Feature detection plugins",
@@ -177,6 +657,75 @@
         "website": "https://example.com"
       }
     },
-    "symbol": "feature-detection-plugins"
+    "plugins": [
+      {
+        "name": "napari-lazy-openslide",
+        "summary": "A plugin to lazily load multiscale whole-slide images with openslide and dask.",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Trevor Manz",
+            "email": "trevor.j.manz@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-aicsimageio",
+        "summary": "AICSImageIO bindings for napari",
+        "comment": "This is a cool plugin is cool",
+        "authors": [
+          {
+            "name": "Jackson Maxfield Brown",
+            "email": "jmaxfieldbrown@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-em-reader",
+        "summary": "A napari plugin to read .em files",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Lorenzo Gaifas",
+            "email": "brisvag@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-cellfinder",
+        "summary": "Visualise cellfinder results with napari",
+        "comment": "This is the best plugin there was",
+        "authors": [
+          {
+            "name": "Adam Tyson",
+            "email": "adam.tyson@ucl.ac.uk"
+          }
+        ]
+      },
+      {
+        "name": "nd2-dask",
+        "summary": "Plugin to load nd2 data into napari",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Draga Doncila Pop",
+            "email": "ddon0001@student.monash.edu"
+          }
+        ]
+      },
+      {
+        "name": "napari-lazy-openslide",
+        "summary": "A plugin to lazily load multiscale whole-slide images with openslide and dask.",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Trevor Manz",
+            "email": "trevor.j.manz@gmail.com"
+          }
+        ]
+      }
+    ],
+    "symbol": "feature-detection-plugins",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta mauris eget convallis efficitur. Donec ultrices ligula turpis, sit amet laoreet erat aliquet vitae. In quis pellentesque ex. Vestibulum eu metus laoreet, blandit dolor sit amet, tristique leo. Sed sollicitudin elit vel venenatis lacinia. Mauris tempor nisl odio, sed placerat ligula dignissim eu. Ut et commodo felis, a pellentesque ipsum. Nulla eu nisi nec eros dapibus iaculis nec sit amet magna. Nam consectetur interdum pharetra. Donec sollicitudin ornare mi at aliquam. Fusce tortor eros, aliquet non ipsum ut, congue pretium quam. In rutrum vestibulum nibh ut eleifend. Nullam quam magna, eleifend et eleifend id, ultricies vel diam."
   }
 ]
