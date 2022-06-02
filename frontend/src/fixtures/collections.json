@@ -6,76 +6,26 @@
     "cover_image": "https://raw.githubusercontent.com/chanzuckerberg/napari-hub-collections/main/images/national-cancer-institute-4zA4w-dr5WM-unsplash.jpg",
     "curator": {
       "name": "Vivien Donovan",
-      "title": "Imaging Scientist",
+      "title": "Head Research Engineer",
       "affiliation": {
         "institution": "Imaging Scientist, Cell Core Research Facility",
         "website": "https://example.com"
+      },
+      "links": {
+        "orcid": "0000-0002-4638-7015",
+        "twitter": "https://twitter.com/neuromusic",
+        "github": "https://github.com/neuromusic",
+        "website": "https://justinkiggins.com"
       }
     },
     "plugins": [
       {
-        "name": "napari-lazy-openslide",
-        "summary": "A plugin to lazily load multiscale whole-slide images with openslide and dask.",
-        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "name": "napari-dv",
+        "summary": "Deltavision/MRC file reader for napari",
         "authors": [
           {
-            "name": "Trevor Manz",
-            "email": "trevor.j.manz@gmail.com"
-          }
-        ]
-      },
-      {
-        "name": "napari_video",
-        "summary": "napari plugin for reading videos.",
-        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
-        "authors": [
-          {
-            "name": "Jan Clemens",
-            "email": "clemensjan@googlemail.com"
-          }
-        ]
-      },
-      {
-        "name": "napari-aicsimageio",
-        "summary": "AICSImageIO bindings for napari",
-        "comment": "This is a cool plugin is cool",
-        "authors": [
-          {
-            "name": "Jackson Maxfield Brown",
-            "email": "jmaxfieldbrown@gmail.com"
-          }
-        ]
-      },
-      {
-        "name": "affinder",
-        "summary": "Quickly find the affine matrix mapping one image to another using manual correspondence points annotation",
-        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
-        "authors": [
-          {
-            "name": "Juan Nunez-Iglesias",
-            "email": "juan.nunez-iglesias@monash.edu"
-          }
-        ]
-      },
-      {
-        "name": "napari-itk-io",
-        "summary": "File IO with itk for napari",
-        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
-        "authors": [
-          {
-            "name": "Matt McCormick",
-            "email": "matt.mccormick@kitware.com"
-          }
-        ]
-      },
-      {
-        "name": "napari-medical-image-formats",
-        "summary": "A Plugin in order to read medical image formats such as DICOM and NIfTI",
-        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
-        "authors": [
-          {
-            "name": "Marc Boucsein, Marc Buckmakowski",
-            "email": ""
+            "name": "Talley Lambert",
+            "email": "talley.lambert@gmail.com"
           }
         ]
       }
@@ -90,32 +40,122 @@
     "cover_image": "https://raw.githubusercontent.com/chanzuckerberg/napari-hub-collections/main/images/national-cancer-institute-J28Nn-CDbII-unsplash.jpg",
     "curator": {
       "name": "Quigley Schoolcraft",
-      "title": "Software Engineer",
+      "title": "Imaging Scientist",
       "affiliation": {
         "institution": "Machine Learning Engineer, Allen Cell Institute",
         "website": "https://example.com"
+      },
+      "links": {
+        "orcid": "0000-0002-4638-7015",
+        "twitter": "https://twitter.com/neuromusic",
+        "github": "https://github.com/neuromusic",
+        "website": "https://justinkiggins.com"
       }
     },
     "plugins": [
       {
-        "name": "napari-btrack-reader",
-        "summary": "A plugin to load btrack files",
-        "comment": "This is a cool plugin is cool",
+        "name": "napping",
+        "summary": "Control point mapping and coordination transformation using napari",
+        "comment": "This is the best plugin there was",
         "authors": [
           {
-            "name": "Alan R. Lowe",
-            "email": "code@arlowe.co.uk"
+            "name": "Jonas Windhager",
+            "email": "jonas.windhager@uzh.ch"
           }
         ]
       },
       {
-        "name": "napari-cellfinder",
-        "summary": "Visualise cellfinder results with napari",
-        "comment": "This is the best plugin there was",
+        "name": "napari-mri",
+        "summary": "A simple plugin to use with napari for 3D-viewing of                  Magnetic Resonance Imaging file formats",
+        "comment": "This is an awesome plugin is",
         "authors": [
           {
-            "name": "Adam Tyson",
-            "email": "adam.tyson@ucl.ac.uk"
+            "name": "SUSMITA SAHA",
+            "email": "susmi06@yahoo.com"
+          }
+        ]
+      },
+      {
+        "name": "ome-zarr",
+        "summary": "Implementation of images in Zarr files.",
+        "comment": "This is a cool plugin is cool",
+        "authors": [
+          {
+            "name": "The Open Microscopy Team",
+            "email": ""
+          }
+        ]
+      },
+      {
+        "name": "napari-em-reader",
+        "summary": "A napari plugin to read .em files",
+        "authors": [
+          {
+            "name": "Lorenzo Gaifas",
+            "email": "brisvag@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-em-reader",
+        "summary": "A napari plugin to read .em files",
+        "authors": [
+          {
+            "name": "Lorenzo Gaifas",
+            "email": "brisvag@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-minimal-plugin",
+        "summary": "A minimal plugin",
+        "comment": "This is a cool plugin is cool",
+        "authors": [
+          {
+            "name": "Manan Lalit",
+            "email": "lalit@mpi-cbg.de"
+          }
+        ]
+      },
+      {
+        "name": "napari-properties-viewer",
+        "summary": "A viewer for napari layer properties",
+        "authors": [
+          {
+            "name": "Kevin Yamauchi",
+            "email": "kevin.yamauchi@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "napari_video",
+        "summary": "napari plugin for reading videos.",
+        "comment": "This is an awesome plugin is",
+        "authors": [
+          {
+            "name": "Jan Clemens",
+            "email": "clemensjan@googlemail.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-yapic-prediction",
+        "summary": "Napari widget plugin to perform yapic model segmentation prediction in the napari window",
+        "comment": "This is a cool plugin is cool",
+        "authors": [
+          {
+            "name": "Duway Nicolas Lesmes Leon",
+            "email": "dlesmesleon@hotmail.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-properties-viewer",
+        "summary": "A viewer for napari layer properties",
+        "authors": [
+          {
+            "name": "Kevin Yamauchi",
+            "email": "kevin.yamauchi@gmail.com"
           }
         ]
       }
@@ -130,17 +170,103 @@
     "cover_image": "https://raw.githubusercontent.com/chanzuckerberg/napari-hub-collections/main/images/national-cancer-institute-LnvCEXQwC-o-unsplash.jpg",
     "curator": {
       "name": "Moab Luminoso",
-      "title": "Imaging Scientist",
+      "title": "Software Engineer",
       "affiliation": {
         "institution": "Imaging Research Scientist, Association of Biomolecular Resource Facilities",
         "website": "https://example.com"
+      },
+      "links": {
+        "orcid": "0000-0002-4638-7015",
+        "twitter": "https://twitter.com/neuromusic",
+        "github": "https://github.com/neuromusic",
+        "website": "https://justinkiggins.com"
       }
     },
     "plugins": [
       {
+        "name": "napari-lazy-openslide",
+        "summary": "A plugin to lazily load multiscale whole-slide images with openslide and dask.",
+        "comment": "This is the best plugin there was",
+        "authors": [
+          {
+            "name": "Trevor Manz",
+            "email": "trevor.j.manz@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-aicsimageio",
+        "summary": "AICSImageIO bindings for napari",
+        "comment": "This is the best plugin there was",
+        "authors": [
+          {
+            "name": "Jackson Maxfield Brown",
+            "email": "jmaxfieldbrown@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-demo",
+        "summary": "demo plugin",
+        "comment": "This is a cool plugin is cool",
+        "authors": [
+          {
+            "name": "Ziyang Liu",
+            "email": "zliu@chanzuckerberg.com"
+          },
+          {
+            "name": "Justin T. Kiggins",
+            "orcid": "0000-0002-4638-7015"
+          }
+        ]
+      },
+      {
+        "name": "cellpose-napari",
+        "summary": "a generalist algorithm for anatomical segmentation",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Carsen Stringer",
+            "email": "stringerc@janelia.hhmi.org"
+          }
+        ]
+      },
+      {
+        "name": "misic-napari-plugin",
+        "summary": "segmentation of bacteria",
+        "authors": [
+          {
+            "name": "lcb-iam-pswap-le",
+            "email": "spanigrahi@imm.cnrs.fr"
+          }
+        ]
+      },
+      {
+        "name": "napping",
+        "summary": "Control point mapping and coordination transformation using napari",
+        "comment": "This is the best plugin there was",
+        "authors": [
+          {
+            "name": "Jonas Windhager",
+            "email": "jonas.windhager@uzh.ch"
+          }
+        ]
+      },
+      {
         "name": "napari-brainreg",
         "summary": "Visualise brainreg registration output",
-        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "comment": "This is the best plugin there was",
+        "authors": [
+          {
+            "name": "Adam Tyson",
+            "email": "adam.tyson@ucl.ac.uk"
+          }
+        ]
+      },
+      {
+        "name": "napari-cellfinder",
+        "summary": "Visualise cellfinder results with napari",
+        "comment": "This is a cool plugin is cool",
         "authors": [
           {
             "name": "Adam Tyson",
@@ -159,39 +285,22 @@
     "cover_image": "https://raw.githubusercontent.com/chanzuckerberg/napari-hub-collections/main/images/national-cancer-institute-NbZQYileaOI-unsplash.jpg",
     "curator": {
       "name": "Kinshasa Kosette Mickelthwait-Venkatesh",
-      "title": "Head Research Engineer",
+      "title": "Product Manager",
       "affiliation": {
         "institution": "Research Biologist, Low Anchor Center for Human Disease and Study",
         "website": "https://example.com"
+      },
+      "links": {
+        "orcid": "0000-0002-4638-7015",
+        "twitter": "https://twitter.com/neuromusic",
+        "github": "https://github.com/neuromusic",
+        "website": "https://justinkiggins.com"
       }
     },
     "plugins": [
       {
-        "name": "napari-compressed-labels-io",
-        "summary": "Plugin exploring different options for reading and writing compressed and portable labels layers in napari.",
-        "comment": "This is the best plugin there was",
-        "authors": [
-          {
-            "name": "Draga Doncila",
-            "email": "ddoncila@gmail.com"
-          }
-        ]
-      },
-      {
-        "name": "napari-brainreg",
-        "summary": "Visualise brainreg registration output",
-        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
-        "authors": [
-          {
-            "name": "Adam Tyson",
-            "email": "adam.tyson@ucl.ac.uk"
-          }
-        ]
-      },
-      {
-        "name": "napari-lazy-openslide",
-        "summary": "A plugin to lazily load multiscale whole-slide images with openslide and dask.",
-        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "name": "napari-dzi-zarr",
+        "summary": "An experimental plugin for viewing Deep Zoom Images (DZI) with napari and zarr.",
         "authors": [
           {
             "name": "Trevor Manz",
@@ -200,9 +309,20 @@
         ]
       },
       {
+        "name": "napari-itk-io",
+        "summary": "File IO with itk for napari",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Matt McCormick",
+            "email": "matt.mccormick@kitware.com"
+          }
+        ]
+      },
+      {
         "name": "napari-brainreg",
         "summary": "Visualise brainreg registration output",
-        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "comment": "This is the best plugin there was",
         "authors": [
           {
             "name": "Adam Tyson",
@@ -211,13 +331,35 @@
         ]
       },
       {
-        "name": "napari-aicsimageio",
-        "summary": "AICSImageIO bindings for napari",
+        "name": "cellpose-napari",
+        "summary": "a generalist algorithm for anatomical segmentation",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Carsen Stringer",
+            "email": "stringerc@janelia.hhmi.org"
+          }
+        ]
+      },
+      {
+        "name": "napari-hdf5-labels-io",
+        "summary": "Napari plugin to store set of layers in a .h5 file. Label layer are stored in a sparse representation",
+        "comment": "This is the best plugin there was",
+        "authors": [
+          {
+            "name": "Duway Nicolas Lesmes Leon",
+            "email": "dlesmesleon@hotmail.com"
+          }
+        ]
+      },
+      {
+        "name": "PlatyMatch",
+        "summary": "`PlatyMatch` allows registration of volumetric images of embryos by establishing correspondences between cells",
         "comment": "This is a cool plugin is cool",
         "authors": [
           {
-            "name": "Jackson Maxfield Brown",
-            "email": "jmaxfieldbrown@gmail.com"
+            "name": "Manan Lalit",
+            "email": "lalit@mpi-cbg.de"
           }
         ]
       }
@@ -232,13 +374,82 @@
     "cover_image": "https://raw.githubusercontent.com/chanzuckerberg/napari-hub-collections/main/images/national-cancer-institute-TX9pU27p6D0-unsplash.jpg",
     "curator": {
       "name": "Fritz Curiel",
-      "title": "Product Manager",
+      "title": "Imaging Scientist",
       "affiliation": {
         "institution": "Cell Innovation Expert, University of Catania",
         "website": "https://example.com"
+      },
+      "links": {
+        "orcid": "0000-0002-4638-7015",
+        "twitter": "https://twitter.com/neuromusic",
+        "github": "https://github.com/neuromusic",
+        "website": "https://justinkiggins.com"
       }
     },
     "plugins": [
+      {
+        "name": "napari-console",
+        "summary": "A plugin that adds a console to napari",
+        "authors": [
+          {
+            "name": "Nicholas Sofroniew",
+            "email": "sofroniewn@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-properties-viewer",
+        "summary": "A viewer for napari layer properties",
+        "authors": [
+          {
+            "name": "Kevin Yamauchi",
+            "email": "kevin.yamauchi@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "brainreg-segment",
+        "summary": "Manual segmentation of 3D brain structures in a common anatomical space",
+        "comment": "This is the best plugin there was",
+        "authors": [
+          {
+            "name": "Adam Tyson, Horst Obenhaus",
+            "email": "code@adamltyson.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-minimal-plugin",
+        "summary": "A minimal plugin",
+        "comment": "This is a cool plugin is cool",
+        "authors": [
+          {
+            "name": "Manan Lalit",
+            "email": "lalit@mpi-cbg.de"
+          }
+        ]
+      },
+      {
+        "name": "brainglobe-napari-io",
+        "summary": "Read and write files from the BrainGlobe neuroanatomy suite",
+        "comment": "This is an awesome plugin is",
+        "authors": [
+          {
+            "name": "Adam Tyson",
+            "email": "adam.tyson@ucl.ac.uk"
+          }
+        ]
+      },
+      {
+        "name": "napari-properties-viewer",
+        "summary": "A viewer for napari layer properties",
+        "authors": [
+          {
+            "name": "Kevin Yamauchi",
+            "email": "kevin.yamauchi@gmail.com"
+          }
+        ]
+      },
       {
         "name": "brainreg-segment",
         "summary": "Manual segmentation of 3D brain structures in a common anatomical space",
@@ -253,7 +464,7 @@
       {
         "name": "napari-aicsimageio",
         "summary": "AICSImageIO bindings for napari",
-        "comment": "This is a cool plugin is cool",
+        "comment": "This is the best plugin there was",
         "authors": [
           {
             "name": "Jackson Maxfield Brown",
@@ -262,13 +473,12 @@
         ]
       },
       {
-        "name": "brainreg-segment",
-        "summary": "Manual segmentation of 3D brain structures in a common anatomical space",
-        "comment": "This is the best plugin there was",
+        "name": "napari-nikon-nd2",
+        "summary": "Opens Nikon ND2 files into napari.",
         "authors": [
           {
-            "name": "Adam Tyson, Horst Obenhaus",
-            "email": "code@adamltyson.com"
+            "name": "Chris Wood",
+            "email": "cwood1967@gmail.com"
           }
         ]
       }
@@ -283,86 +493,70 @@
     "cover_image": "https://raw.githubusercontent.com/chanzuckerberg/napari-hub-collections/main/images/national-cancer-institute-W2OVh2w2Kpo-unsplash.jpg",
     "curator": {
       "name": "Zed Wexler",
-      "title": "Product Manager",
+      "title": "Software Engineer",
       "affiliation": {
         "institution": "Research Biologist, Cardiff College of Microbiology",
         "website": "https://example.com"
+      },
+      "links": {
+        "orcid": "0000-0002-4638-7015",
+        "twitter": "https://twitter.com/neuromusic",
+        "github": "https://github.com/neuromusic",
+        "website": "https://justinkiggins.com"
       }
     },
     "plugins": [
       {
-        "name": "napari-dv",
-        "summary": "Deltavision/MRC file reader for napari",
+        "name": "napari-compressed-labels-io",
+        "summary": "Plugin exploring different options for reading and writing compressed and portable labels layers in napari.",
         "comment": "This is a cool plugin is cool",
         "authors": [
           {
-            "name": "Talley Lambert",
-            "email": "talley.lambert@gmail.com"
+            "name": "Draga Doncila",
+            "email": "ddoncila@gmail.com"
           }
         ]
       },
       {
-        "name": "napari-cellfinder",
-        "summary": "Visualise cellfinder results with napari",
-        "comment": "This is the best plugin there was",
+        "name": "misic-napari-plugin",
+        "summary": "segmentation of bacteria",
         "authors": [
           {
-            "name": "Adam Tyson",
-            "email": "adam.tyson@ucl.ac.uk"
-          }
-        ]
-      },
-      {
-        "name": "napari_video",
-        "summary": "napari plugin for reading videos.",
-        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
-        "authors": [
-          {
-            "name": "Jan Clemens",
-            "email": "clemensjan@googlemail.com"
-          }
-        ]
-      },
-      {
-        "name": "cellfinder-napari",
-        "summary": "Efficient cell detection in large images",
-        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
-        "authors": [
-          {
-            "name": "Adam Tyson",
-            "email": "code@adamltyson.com"
-          }
-        ]
-      },
-      {
-        "name": "napari-cellfinder",
-        "summary": "Visualise cellfinder results with napari",
-        "comment": "This is the best plugin there was",
-        "authors": [
-          {
-            "name": "Adam Tyson",
-            "email": "adam.tyson@ucl.ac.uk"
-          }
-        ]
-      },
-      {
-        "name": "napari-svg",
-        "summary": "A plugin for reading and writing svg files with napari",
-        "authors": [
-          {
-            "name": "Nicholas Sofroniew",
-            "email": "sofroniewn@gmail.com"
+            "name": "lcb-iam-pswap-le",
+            "email": "spanigrahi@imm.cnrs.fr"
           }
         ]
       },
       {
         "name": "napari-brainreg",
         "summary": "Visualise brainreg registration output",
-        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "comment": "This is the best plugin there was",
         "authors": [
           {
             "name": "Adam Tyson",
             "email": "adam.tyson@ucl.ac.uk"
+          }
+        ]
+      },
+      {
+        "name": "PartSeg",
+        "summary": "PartSeg is python GUI for bio imaging analysis especially nucleus analysis,",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Grzegorz Bokota",
+            "email": "g.bokota@cent.uw.edu.pl"
+          }
+        ]
+      },
+      {
+        "name": "napari-hdf5-labels-io",
+        "summary": "Napari plugin to store set of layers in a .h5 file. Label layer are stored in a sparse representation",
+        "comment": "This is the best plugin there was",
+        "authors": [
+          {
+            "name": "Duway Nicolas Lesmes Leon",
+            "email": "dlesmesleon@hotmail.com"
           }
         ]
       }
@@ -377,31 +571,44 @@
     "cover_image": "https://raw.githubusercontent.com/chanzuckerberg/napari-hub-collections/main/images/national-cancer-institute-dMZC6hdobnk-unsplash.jpg",
     "curator": {
       "name": "Faisal Farooq",
-      "title": "Imaging Scientist",
+      "title": "Software Engineer",
       "affiliation": {
         "institution": "Cell Disease Specialist, University of Washington Medical Center",
         "website": "https://example.com"
+      },
+      "links": {
+        "orcid": "0000-0002-4638-7015",
+        "twitter": "https://twitter.com/neuromusic",
+        "github": "https://github.com/neuromusic",
+        "website": "https://justinkiggins.com"
       }
     },
     "plugins": [
       {
-        "name": "napari-demo",
-        "summary": "demo plugin",
-        "comment": "This is the best plugin there was",
+        "name": "brainglobe-napari-io",
+        "summary": "Read and write files from the BrainGlobe neuroanatomy suite",
+        "comment": "This is an awesome plugin is",
         "authors": [
           {
-            "name": "Ziyang Liu",
-            "email": "zliu@chanzuckerberg.com"
-          },
-          {
-            "name": "Justin T. Kiggins",
-            "orcid": "0000-0002-4638-7015"
+            "name": "Adam Tyson",
+            "email": "adam.tyson@ucl.ac.uk"
           }
         ]
       },
       {
-        "name": "napari-console",
-        "summary": "A plugin that adds a console to napari",
+        "name": "napari-btrack-reader",
+        "summary": "A plugin to load btrack files",
+        "comment": "This is a cool plugin is cool",
+        "authors": [
+          {
+            "name": "Alan R. Lowe",
+            "email": "code@arlowe.co.uk"
+          }
+        ]
+      },
+      {
+        "name": "napari-svg",
+        "summary": "A plugin for reading and writing svg files with napari",
         "comment": "This is a cool plugin is cool",
         "authors": [
           {
@@ -411,17 +618,56 @@
         ]
       },
       {
-        "name": "napari-demo",
-        "summary": "demo plugin",
-        "comment": "This is the best plugin there was",
+        "name": "nd2-dask",
+        "summary": "Plugin to load nd2 data into napari",
         "authors": [
           {
-            "name": "Ziyang Liu",
-            "email": "zliu@chanzuckerberg.com"
-          },
+            "name": "Draga Doncila Pop",
+            "email": "ddon0001@student.monash.edu"
+          }
+        ]
+      },
+      {
+        "name": "napari-cellfinder",
+        "summary": "Visualise cellfinder results with napari",
+        "comment": "This is a cool plugin is cool",
+        "authors": [
           {
-            "name": "Justin T. Kiggins",
-            "orcid": "0000-0002-4638-7015"
+            "name": "Adam Tyson",
+            "email": "adam.tyson@ucl.ac.uk"
+          }
+        ]
+      },
+      {
+        "name": "cellpose-napari",
+        "summary": "a generalist algorithm for anatomical segmentation",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Carsen Stringer",
+            "email": "stringerc@janelia.hhmi.org"
+          }
+        ]
+      },
+      {
+        "name": "napari-medical-image-formats",
+        "summary": "A Plugin in order to read medical image formats such as DICOM and NIfTI",
+        "comment": "This is a cool plugin is cool",
+        "authors": [
+          {
+            "name": "Marc Boucsein, Marc Buckmakowski",
+            "email": ""
+          }
+        ]
+      },
+      {
+        "name": "elastix-napari",
+        "summary": "A toolbox for rigid and nonrigid registration of images.",
+        "comment": "This is an awesome plugin is",
+        "authors": [
+          {
+            "name": "Viktor van der Valk",
+            "email": "v.o.van_der_valk@lumc.nl"
           }
         ]
       }
@@ -436,43 +682,59 @@
     "cover_image": "https://raw.githubusercontent.com/chanzuckerberg/napari-hub-collections/main/images/national-cancer-institute-evhLgfOjU5Y-unsplash.jpg",
     "curator": {
       "name": "Brigitta Fleet",
-      "title": "Software Engineer",
+      "title": "Product Manager",
       "affiliation": {
         "institution": "Chan Zuckerberg Initiative",
         "website": "https://example.com"
+      },
+      "links": {
+        "orcid": "0000-0002-4638-7015",
+        "twitter": "https://twitter.com/neuromusic",
+        "github": "https://github.com/neuromusic",
+        "website": "https://justinkiggins.com"
       }
     },
     "plugins": [
       {
-        "name": "misic-napari-plugin",
-        "summary": "segmentation of bacteria",
-        "comment": "This is an awesome plugin is",
+        "name": "napari-medical-image-formats",
+        "summary": "A Plugin in order to read medical image formats such as DICOM and NIfTI",
+        "comment": "This is a cool plugin is cool",
         "authors": [
           {
-            "name": "lcb-iam-pswap-le",
-            "email": "spanigrahi@imm.cnrs.fr"
+            "name": "Marc Boucsein, Marc Buckmakowski",
+            "email": ""
           }
         ]
       },
       {
-        "name": "napari_video",
-        "summary": "napari plugin for reading videos.",
-        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "name": "napari-em-reader",
+        "summary": "A napari plugin to read .em files",
         "authors": [
           {
-            "name": "Jan Clemens",
-            "email": "clemensjan@googlemail.com"
+            "name": "Lorenzo Gaifas",
+            "email": "brisvag@gmail.com"
           }
         ]
       },
       {
-        "name": "PartSeg",
-        "summary": "PartSeg is python GUI for bio imaging analysis especially nucleus analysis,",
+        "name": "napari-brainreg",
+        "summary": "Visualise brainreg registration output",
+        "comment": "This is the best plugin there was",
+        "authors": [
+          {
+            "name": "Adam Tyson",
+            "email": "adam.tyson@ucl.ac.uk"
+          }
+        ]
+      },
+      {
+        "name": "napari-itk-io",
+        "summary": "File IO with itk for napari",
         "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
         "authors": [
           {
-            "name": "Grzegorz Bokota",
-            "email": "g.bokota@cent.uw.edu.pl"
+            "name": "Matt McCormick",
+            "email": "matt.mccormick@kitware.com"
           }
         ]
       }
@@ -487,10 +749,16 @@
     "cover_image": "https://raw.githubusercontent.com/chanzuckerberg/napari-hub-collections/main/images/national-cancer-institute-irmUWEcjIz4-unsplash.jpg",
     "curator": {
       "name": "Guster Talltooth",
-      "title": "Software Engineer",
+      "title": "Imaging Scientist",
       "affiliation": {
         "institution": "Orinda Medical Center Fellow, Orinda Medical Center",
         "website": "https://example.com"
+      },
+      "links": {
+        "orcid": "0000-0002-4638-7015",
+        "twitter": "https://twitter.com/neuromusic",
+        "github": "https://github.com/neuromusic",
+        "website": "https://justinkiggins.com"
       }
     },
     "plugins": [
@@ -502,6 +770,16 @@
           {
             "name": "Grzegorz Bokota",
             "email": "g.bokota@cent.uw.edu.pl"
+          }
+        ]
+      },
+      {
+        "name": "napari-imc",
+        "summary": "Imaging Mass Cytometry (IMC) file type support for napari",
+        "authors": [
+          {
+            "name": "Jonas Windhager",
+            "email": "jonas.windhager@uzh.ch"
           }
         ]
       }
@@ -516,21 +794,70 @@
     "cover_image": "https://raw.githubusercontent.com/chanzuckerberg/napari-hub-collections/main/images/national-cancer-institute-lsxKuARrQXI-unsplash.jpg",
     "curator": {
       "name": "Via Levine",
-      "title": "Software Engineer",
+      "title": "Product Manager",
       "affiliation": {
         "institution": "Imaging Specialist, Hobie Swingle Institute for Cell Science",
         "website": "https://example.com"
+      },
+      "links": {
+        "orcid": "0000-0002-4638-7015",
+        "twitter": "https://twitter.com/neuromusic",
+        "github": "https://github.com/neuromusic",
+        "website": "https://justinkiggins.com"
       }
     },
     "plugins": [
       {
-        "name": "brainglobe-napari-io",
-        "summary": "Read and write files from the BrainGlobe neuroanatomy suite",
+        "name": "napari_video",
+        "summary": "napari plugin for reading videos.",
+        "comment": "This is an awesome plugin is",
+        "authors": [
+          {
+            "name": "Jan Clemens",
+            "email": "clemensjan@googlemail.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-em-reader",
+        "summary": "A napari plugin to read .em files",
+        "authors": [
+          {
+            "name": "Lorenzo Gaifas",
+            "email": "brisvag@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "cellpose-napari",
+        "summary": "a generalist algorithm for anatomical segmentation",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Carsen Stringer",
+            "email": "stringerc@janelia.hhmi.org"
+          }
+        ]
+      },
+      {
+        "name": "napari-itk-io",
+        "summary": "File IO with itk for napari",
+        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "authors": [
+          {
+            "name": "Matt McCormick",
+            "email": "matt.mccormick@kitware.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-yapic-prediction",
+        "summary": "Napari widget plugin to perform yapic model segmentation prediction in the napari window",
         "comment": "This is a cool plugin is cool",
         "authors": [
           {
-            "name": "Adam Tyson",
-            "email": "adam.tyson@ucl.ac.uk"
+            "name": "Duway Nicolas Lesmes Leon",
+            "email": "dlesmesleon@hotmail.com"
           }
         ]
       }
@@ -549,94 +876,22 @@
       "affiliation": {
         "institution": "Research Scientist, ML for the Cell",
         "website": "https://example.com"
+      },
+      "links": {
+        "orcid": "0000-0002-4638-7015",
+        "twitter": "https://twitter.com/neuromusic",
+        "github": "https://github.com/neuromusic",
+        "website": "https://justinkiggins.com"
       }
     },
     "plugins": [
       {
-        "name": "ome-zarr",
-        "summary": "Implementation of images in Zarr files.",
-        "comment": "This is a cool plugin is cool",
+        "name": "napari-dzi-zarr",
+        "summary": "An experimental plugin for viewing Deep Zoom Images (DZI) with napari and zarr.",
         "authors": [
           {
-            "name": "The Open Microscopy Team",
-            "email": ""
-          }
-        ]
-      },
-      {
-        "name": "napari-properties-viewer",
-        "summary": "A viewer for napari layer properties",
-        "comment": "This is the best plugin there was",
-        "authors": [
-          {
-            "name": "Kevin Yamauchi",
-            "email": "kevin.yamauchi@gmail.com"
-          }
-        ]
-      },
-      {
-        "name": "misic-napari-plugin",
-        "summary": "segmentation of bacteria",
-        "comment": "This is an awesome plugin is",
-        "authors": [
-          {
-            "name": "lcb-iam-pswap-le",
-            "email": "spanigrahi@imm.cnrs.fr"
-          }
-        ]
-      },
-      {
-        "name": "misic-napari-plugin",
-        "summary": "segmentation of bacteria",
-        "comment": "This is an awesome plugin is",
-        "authors": [
-          {
-            "name": "lcb-iam-pswap-le",
-            "email": "spanigrahi@imm.cnrs.fr"
-          }
-        ]
-      },
-      {
-        "name": "napari-compressed-labels-io",
-        "summary": "Plugin exploring different options for reading and writing compressed and portable labels layers in napari.",
-        "comment": "This is the best plugin there was",
-        "authors": [
-          {
-            "name": "Draga Doncila",
-            "email": "ddoncila@gmail.com"
-          }
-        ]
-      },
-      {
-        "name": "napari-aicsimageio",
-        "summary": "AICSImageIO bindings for napari",
-        "comment": "This is a cool plugin is cool",
-        "authors": [
-          {
-            "name": "Jackson Maxfield Brown",
-            "email": "jmaxfieldbrown@gmail.com"
-          }
-        ]
-      },
-      {
-        "name": "brainreg-segment",
-        "summary": "Manual segmentation of 3D brain structures in a common anatomical space",
-        "comment": "This is the best plugin there was",
-        "authors": [
-          {
-            "name": "Adam Tyson, Horst Obenhaus",
-            "email": "code@adamltyson.com"
-          }
-        ]
-      },
-      {
-        "name": "napari-aicsimageio",
-        "summary": "AICSImageIO bindings for napari",
-        "comment": "This is a cool plugin is cool",
-        "authors": [
-          {
-            "name": "Jackson Maxfield Brown",
-            "email": "jmaxfieldbrown@gmail.com"
+            "name": "Trevor Manz",
+            "email": "trevor.j.manz@gmail.com"
           }
         ]
       }
@@ -655,35 +910,29 @@
       "affiliation": {
         "institution": "Cell Innovation Scientist, Carpati Institution",
         "website": "https://example.com"
+      },
+      "links": {
+        "orcid": "0000-0002-4638-7015",
+        "twitter": "https://twitter.com/neuromusic",
+        "github": "https://github.com/neuromusic",
+        "website": "https://justinkiggins.com"
       }
     },
     "plugins": [
       {
-        "name": "napari-lazy-openslide",
-        "summary": "A plugin to lazily load multiscale whole-slide images with openslide and dask.",
-        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
-        "authors": [
-          {
-            "name": "Trevor Manz",
-            "email": "trevor.j.manz@gmail.com"
-          }
-        ]
-      },
-      {
-        "name": "napari-aicsimageio",
-        "summary": "AICSImageIO bindings for napari",
+        "name": "napari-yapic-prediction",
+        "summary": "Napari widget plugin to perform yapic model segmentation prediction in the napari window",
         "comment": "This is a cool plugin is cool",
         "authors": [
           {
-            "name": "Jackson Maxfield Brown",
-            "email": "jmaxfieldbrown@gmail.com"
+            "name": "Duway Nicolas Lesmes Leon",
+            "email": "dlesmesleon@hotmail.com"
           }
         ]
       },
       {
         "name": "napari-em-reader",
         "summary": "A napari plugin to read .em files",
-        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
         "authors": [
           {
             "name": "Lorenzo Gaifas",
@@ -692,35 +941,34 @@
         ]
       },
       {
-        "name": "napari-cellfinder",
-        "summary": "Visualise cellfinder results with napari",
-        "comment": "This is the best plugin there was",
-        "authors": [
-          {
-            "name": "Adam Tyson",
-            "email": "adam.tyson@ucl.ac.uk"
-          }
-        ]
-      },
-      {
-        "name": "nd2-dask",
-        "summary": "Plugin to load nd2 data into napari",
-        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
-        "authors": [
-          {
-            "name": "Draga Doncila Pop",
-            "email": "ddon0001@student.monash.edu"
-          }
-        ]
-      },
-      {
         "name": "napari-lazy-openslide",
         "summary": "A plugin to lazily load multiscale whole-slide images with openslide and dask.",
-        "comment": "This is a plugin that has really long description because we should be testing plugins with long descriptions by adding long description to the data so that it can be tested with long descriptions in comparison to the short descriptions which are not as long, so it makes sense for it to be tested at the same time, regardless of length, because the length of the description is important and can reveal edge cases that would otherwise not be found with only a short description, hence the really long description that is being written right now.",
+        "comment": "This is the best plugin there was",
         "authors": [
           {
             "name": "Trevor Manz",
             "email": "trevor.j.manz@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "napari-medical-image-formats",
+        "summary": "A Plugin in order to read medical image formats such as DICOM and NIfTI",
+        "comment": "This is a cool plugin is cool",
+        "authors": [
+          {
+            "name": "Marc Boucsein, Marc Buckmakowski",
+            "email": ""
+          }
+        ]
+      },
+      {
+        "name": "napari-dv",
+        "summary": "Deltavision/MRC file reader for napari",
+        "authors": [
+          {
+            "name": "Talley Lambert",
+            "email": "talley.lambert@gmail.com"
           }
         ]
       }
